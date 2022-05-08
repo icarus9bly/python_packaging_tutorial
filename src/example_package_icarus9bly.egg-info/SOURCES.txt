@@ -4,6 +4,7 @@ pyproject.toml
 setup.cfg
 src/example_package/__init__.py
 src/example_package/example.py
+src/example_package/py.typed
 src/example_package_icarus9bly.egg-info/PKG-INFO
 src/example_package_icarus9bly.egg-info/SOURCES.txt
 src/example_package_icarus9bly.egg-info/dependency_links.txt
