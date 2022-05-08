@@ -7,6 +7,8 @@ to write your content.
 # Develop this module
 - Steps to follow:
 ```python
+# cd /path/to/python_packaging_tutorial
 python3 -m build
 python3 -m twine upload --repository testpypi dist/*CurrentVersion* --verbose
+# python3 -m twine upload --repository testpypi dist/*0.0.4* --verbose
 ```
