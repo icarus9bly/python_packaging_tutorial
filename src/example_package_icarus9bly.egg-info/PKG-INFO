@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: example-package-icarus9bly
-Version: 0.0.1
+Version: 0.0.4
 Summary: A small example package
 Home-page: https://github.com/icarus9bly/python_packaging_tutorial
 Author: Adi is the author
@@ -20,5 +20,12 @@ License-File: LICENSE
 This is a simple example package. You can use
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to write your content.
+
+# Develop this module
+- Steps to follow:
+```python
+python3 -m build
+python3 -m twine upload --repository testpypi dist/*CurrentVersion* --verbose
+```
 
 
