@@ -8,6 +8,7 @@ to write your content.
 - Steps to follow:
 ```python
 # cd /path/to/python_packaging_tutorial
+# Don't need requirements.txt with setuptools but it's a best pratice
 python3 -m pip freeze > requirements.txt
 # Install package locally in editable mode
 python3 -m pip install -e .
