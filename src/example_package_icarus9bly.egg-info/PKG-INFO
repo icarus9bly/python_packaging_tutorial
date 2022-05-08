@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: example-package-icarus9bly
-Version: 0.0.4
+Version: 0.0.5
 Summary: A small example package
 Home-page: https://github.com/icarus9bly/python_packaging_tutorial
 Author: Adi is the author
@@ -24,8 +24,10 @@ to write your content.
 # Develop this module
 - Steps to follow:
 ```python
+# cd /path/to/python_packaging_tutorial
 python3 -m build
 python3 -m twine upload --repository testpypi dist/*CurrentVersion* --verbose
+# python3 -m twine upload --repository testpypi dist/*0.0.4* --verbose
 ```
 
 

@@ -8,7 +8,12 @@ to write your content.
 - Steps to follow:
 ```python
 # cd /path/to/python_packaging_tutorial
+python3 -m pip freeze > requirements.txt
+# Install package locally in editable mode
+python3 -m pip install -e .
 python3 -m build
 python3 -m twine upload --repository testpypi dist/*CurrentVersion* --verbose
 # python3 -m twine upload --repository testpypi dist/*0.0.4* --verbose
+# Install package from pip
+pip install -i https://test.pypi.org/simple/ example-package-icarus9bly
 ```
