@@ -1,1 +1,4 @@
-dist
+dist/
+bin/
+lib/
+pyvenv.cfg
