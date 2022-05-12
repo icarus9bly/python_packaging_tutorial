@@ -4,3 +4,4 @@ lib/
 pyvenv.cfg
 .vscode/
 __pycache__/
+.DS_Store
